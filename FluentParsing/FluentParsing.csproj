@@ -8,6 +8,14 @@
     <Authors>Jeremwhy</Authors>
     <Description>A fluent C# package that simplifies parsing. Build using .NET 8.</Description>
     <PackageTags>.NET 8, C#, Fluent, Parsing</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
